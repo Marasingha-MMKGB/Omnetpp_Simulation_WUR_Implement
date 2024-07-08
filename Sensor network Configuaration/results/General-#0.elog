@@ -1,0 +1,215 @@
+SB ov 1536 ev 2 rid General-0-20240708-23:21:58-30692
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t newproject.Network n Network cm 1
+MDC id 1 d bgb=1044.1575,632.98126,,,0;i=background/streetmap,,0;is=vl;i2=status/execute,,0
+MC id 2 c server t newproject.server pid 1 n Server
+GC m 2 g 0 n radioIn o 0
+MDC id 2 d p=84,265;i=device/server,,0
+MC id 3 c client t newproject.client pid 1 n Client
+GC m 3 g 0 n radioIn o 0
+MDC id 3 d p=469,269;i=misc/city,,0
+MC id 4 c server t newproject.server pid 1 n Server1
+GC m 4 g 0 n radioIn o 0
+MDC id 4 d p=350.49374,103.57875;i=device/server,,0
+MC id 5 c server t newproject.server pid 1 n Server2
+GC m 5 g 0 n radioIn o 0
+MDC id 5 d p=567.0675,96.255;i=device/server,,0
+MC id 6 c server t newproject.server pid 1 n Server3
+GC m 6 g 0 n radioIn o 0
+MDC id 6 d p=833.86127,134.96625;i=device/server,,0
+MC id 7 c server t newproject.server pid 1 n Server4
+GC m 7 g 0 n radioIn o 0
+MDC id 7 d p=201.92625,459.30374;i=device/server,,0
+MC id 8 c server t newproject.server pid 1 n Server5
+GC m 8 g 0 n radioIn o 0
+MDC id 8 d p=789.91876,541.9575;i=device/server,,0
+MC id 9 c server t newproject.server pid 1 n Server6
+GC m 9 g 0 n radioIn o 0
+MDC id 9 d p=536.72626,420.5925;i=device/server,,0
+MC id 10 c server t newproject.server pid 1 n Server7
+GC m 10 g 0 n radioIn o 0
+MDC id 10 d p=380.835,528.35626;i=device/server,,0
+CMB sm 1 tm 2 m initialize(0)
+CME
+CMB sm 1 tm 3 m initialize(0)
+- INFO: Client initialize
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n RTS pe -1
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 0
+BS id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n RTS sm 3 st 0 am 3 at 0.548813502304 pe 0
+ES id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n RTS sm 3 st 0 am 3 at 0.548813502304 pe 0
+- INFO: Client initialize complete
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+CMB sm 1 tm 9 m initialize(0)
+CME
+CMB sm 1 tm 10 m initialize(0)
+CME
+
+E # 1 t 0.548813502304 m 3 ce 0 msg 1
+- INFO: Client handle message initialize
+CM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n Server6 pe -1
+BS id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 2 dg 0
+ES id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 2 ag 0 at 0.548813502304 pe 1
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n Server6 m 3 pe -1 cid 2
+CL id 3 tid 0 eid 3 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 3 tid 0 eid 3 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.393079246394 pe 1
+ES id 3 tid 0 eid 3 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.393079246394 pe 1
+CM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n Server6 pe -1
+BS id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 4 dg 0
+ES id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 4 ag 0 at 0.548813502304 pe 1
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n Server6 m 3 pe -1 cid 4
+CL id 5 tid 0 eid 5 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 5 tid 0 eid 5 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.151576872682 pe 1
+ES id 5 tid 0 eid 5 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.151576872682 pe 1
+- INFO: Client handle message initialize
+CM id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n Server6 pe -1
+BS id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 5 dg 0
+ES id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 5 ag 0 at 0.548813502304 pe 1
+CL id 7 tid 6 eid 7 etid 6 c omnetpp::cMessage n Server6 m 3 pe -1 cid 6
+CL id 7 tid 0 eid 7 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 7 tid 0 eid 7 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.406759122153 pe 1
+ES id 7 tid 0 eid 7 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.406759122153 pe 1
+CM id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n Server6 pe -1
+BS id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 6 dg 0
+ES id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 6 ag 0 at 0.548813502304 pe 1
+CL id 9 tid 8 eid 9 etid 8 c omnetpp::cMessage n Server6 m 3 pe -1 cid 8
+CL id 9 tid 0 eid 9 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 9 tid 0 eid 9 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.093696679687 pe 1
+ES id 9 tid 0 eid 9 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.093696679687 pe 1
+CM id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n Server6 pe -1
+BS id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 7 dg 0
+ES id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 7 ag 0 at 0.548813502304 pe 1
+CL id 11 tid 10 eid 11 etid 10 c omnetpp::cMessage n Server6 m 3 pe -1 cid 10
+CL id 11 tid 0 eid 11 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 11 tid 0 eid 11 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.396065239561 pe 1
+ES id 11 tid 0 eid 11 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.396065239561 pe 1
+CM id 12 tid 12 eid 12 etid 12 c omnetpp::cMessage n Server6 pe -1
+BS id 12 tid 12 eid 12 etid 12 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 8 dg 0
+ES id 12 tid 12 eid 12 etid 12 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 8 ag 0 at 0.548813502304 pe 1
+CL id 13 tid 12 eid 13 etid 12 c omnetpp::cMessage n Server6 m 3 pe -1 cid 12
+CL id 13 tid 0 eid 13 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 13 tid 0 eid 13 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 0.972468299092 pe 1
+ES id 13 tid 0 eid 13 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 0.972468299092 pe 1
+CM id 14 tid 14 eid 14 etid 14 c omnetpp::cMessage n Server6 pe -1
+BS id 14 tid 14 eid 14 etid 14 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 9 dg 0
+ES id 14 tid 14 eid 14 etid 14 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 9 ag 0 at 0.548813502304 pe 1
+CL id 15 tid 14 eid 15 etid 14 c omnetpp::cMessage n Server6 m 3 pe -1 cid 14
+CL id 15 tid 0 eid 15 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 15 tid 0 eid 15 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.172377198701 pe 1
+ES id 15 tid 0 eid 15 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.172377198701 pe 1
+CM id 16 tid 16 eid 16 etid 16 c omnetpp::cMessage n Server6 pe -1
+BS id 16 tid 16 eid 16 etid 16 c omnetpp::cMessage n Server6 m 3 pe 1
+SD sm 3 dm 10 dg 0
+ES id 16 tid 16 eid 16 etid 16 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 10 ag 0 at 0.548813502304 pe 1
+CL id 17 tid 16 eid 17 etid 16 c omnetpp::cMessage n Server6 m 3 pe -1 cid 16
+CL id 17 tid 0 eid 17 etid 0 c omnetpp::cMessage n RTS m 3 pe -1 cid 1
+BS id 17 tid 0 eid 17 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.194707617396 pe 1
+ES id 17 tid 0 eid 17 etid 0 c omnetpp::cMessage n RTS sm 3 st 0.548813502304 am 3 at 1.194707617396 pe 1
+
+E # 2 t 0.548813502304 m 2 ce 1 msg 2
+
+E # 3 t 0.548813502304 m 4 ce 1 msg 4
+
+E # 4 t 0.548813502304 m 5 ce 1 msg 6
+
+E # 5 t 0.548813502304 m 6 ce 1 msg 8
+
+E # 6 t 0.548813502304 m 7 ce 1 msg 10
+
+E # 7 t 0.548813502304 m 8 ce 1 msg 12
+
+E # 8 t 0.548813502304 m 9 ce 1 msg 14
+CM id 18 tid 18 eid 18 etid 18 c omnetpp::cMessage n Server6 pe -1
+BS id 18 tid 18 eid 18 etid 18 c omnetpp::cMessage n Server6 m 9 pe 8
+SD sm 9 dm 3 dg 0
+ES id 18 tid 18 eid 18 etid 18 c omnetpp::cMessage n Server6 sm 9 st 0.548813502304 am 3 ag 0 at 0.548813502304 pe 8
+CL id 19 tid 18 eid 19 etid 18 c omnetpp::cMessage n Server6 m 9 pe -1 cid 18
+
+E # 9 t 0.548813502304 m 10 ce 1 msg 16
+
+E # 10 t 0.548813502304 m 3 ce 8 msg 18
+- INFO: Client handle message initialize
+CM id 19 tid 19 eid 19 etid 19 c omnetpp::cMessage n Server3 pe -1
+BS id 19 tid 19 eid 19 etid 19 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 2 dg 0
+ES id 19 tid 19 eid 19 etid 19 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 2 ag 0 at 0.548813502304 pe 10
+CL id 20 tid 19 eid 20 etid 19 c omnetpp::cMessage n Server3 m 3 pe -1 cid 19
+CL id 20 tid 18 eid 20 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 20 tid 18 eid 20 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.986400712281 pe 10
+ES id 20 tid 18 eid 20 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.986400712281 pe 10
+CM id 21 tid 21 eid 21 etid 21 c omnetpp::cMessage n Server3 pe -1
+BS id 21 tid 21 eid 21 etid 21 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 4 dg 0
+ES id 21 tid 21 eid 21 etid 21 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 4 ag 0 at 0.548813502304 pe 10
+CL id 22 tid 21 eid 22 etid 21 c omnetpp::cMessage n Server3 m 3 pe -1 cid 21
+CL id 22 tid 18 eid 22 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 22 tid 18 eid 22 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.846348107559 pe 10
+ES id 22 tid 18 eid 22 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.846348107559 pe 10
+- INFO: Client handle message initialize
+CM id 23 tid 23 eid 23 etid 23 c omnetpp::cMessage n Server3 pe -1
+BS id 23 tid 23 eid 23 etid 23 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 5 dg 0
+ES id 23 tid 23 eid 23 etid 23 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 5 ag 0 at 0.548813502304 pe 10
+CL id 24 tid 23 eid 24 etid 23 c omnetpp::cMessage n Server3 m 3 pe -1 cid 23
+CL id 24 tid 18 eid 24 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 24 tid 18 eid 24 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.440586504061 pe 10
+ES id 24 tid 18 eid 24 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.440586504061 pe 10
+CM id 25 tid 25 eid 25 etid 25 c omnetpp::cMessage n Server3 pe -1
+BS id 25 tid 25 eid 25 etid 25 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 6 dg 0
+ES id 25 tid 25 eid 25 etid 25 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 6 ag 0 at 0.548813502304 pe 10
+CL id 26 tid 25 eid 26 etid 25 c omnetpp::cMessage n Server3 m 3 pe -1 cid 25
+CL id 26 tid 18 eid 26 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 26 tid 18 eid 26 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.60552647803 pe 10
+ES id 26 tid 18 eid 26 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.60552647803 pe 10
+CM id 27 tid 27 eid 27 etid 27 c omnetpp::cMessage n Server3 pe -1
+BS id 27 tid 27 eid 27 etid 27 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 7 dg 0
+ES id 27 tid 27 eid 27 etid 27 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 7 ag 0 at 0.548813502304 pe 10
+CL id 28 tid 27 eid 28 etid 27 c omnetpp::cMessage n Server3 m 3 pe -1 cid 27
+CL id 28 tid 18 eid 28 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 28 tid 18 eid 28 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.512476266362 pe 10
+ES id 28 tid 18 eid 28 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.512476266362 pe 10
+CM id 29 tid 29 eid 29 etid 29 c omnetpp::cMessage n Server3 pe -1
+BS id 29 tid 29 eid 29 etid 29 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 8 dg 0
+ES id 29 tid 29 eid 29 etid 29 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 8 ag 0 at 0.548813502304 pe 10
+CL id 30 tid 29 eid 30 etid 29 c omnetpp::cMessage n Server3 m 3 pe -1 cid 29
+CL id 30 tid 18 eid 30 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 30 tid 18 eid 30 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.821469796821 pe 10
+ES id 30 tid 18 eid 30 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.821469796821 pe 10
+CM id 31 tid 31 eid 31 etid 31 c omnetpp::cMessage n Server3 pe -1
+BS id 31 tid 31 eid 31 etid 31 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 9 dg 0
+ES id 31 tid 31 eid 31 etid 31 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 9 ag 0 at 0.548813502304 pe 10
+CL id 32 tid 31 eid 32 etid 31 c omnetpp::cMessage n Server3 m 3 pe -1 cid 31
+CL id 32 tid 18 eid 32 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 32 tid 18 eid 32 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.932255023624 pe 10
+ES id 32 tid 18 eid 32 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 0.932255023624 pe 10
+CM id 33 tid 33 eid 33 etid 33 c omnetpp::cMessage n Server3 pe -1
+BS id 33 tid 33 eid 33 etid 33 c omnetpp::cMessage n Server3 m 3 pe 10
+SD sm 3 dm 10 dg 0
+ES id 33 tid 33 eid 33 etid 33 c omnetpp::cMessage n Server3 sm 3 st 0.548813502304 am 10 ag 0 at 0.548813502304 pe 10
+CL id 34 tid 33 eid 34 etid 33 c omnetpp::cMessage n Server3 m 3 pe -1 cid 33
+CL id 34 tid 18 eid 34 etid 18 c omnetpp::cMessage n Server6 m 3 pe -1 cid 18
+BS id 34 tid 18 eid 34 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.026478613959 pe 10
+ES id 34 tid 18 eid 34 etid 18 c omnetpp::cMessage n Server6 sm 3 st 0.548813502304 am 3 at 1.026478613959 pe 10
+
+SE e 0 c 10 m "The user has finished the simulation -- at t=0.548813502304s, event #10"
