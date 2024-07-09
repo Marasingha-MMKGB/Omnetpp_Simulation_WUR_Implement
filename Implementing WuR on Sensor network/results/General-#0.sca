@@ -1,0 +1,48 @@
+version 3
+run General-0-20240709-22:30:39-3588
+attr configname General
+attr datetime 20240709-22:30:39
+attr datetimef 20240709-223039
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 3588
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+config record-eventlog true
+
+par Network.Server1.out.channel typename "\"ned.IdealChannel\""
+par Network.Server2.out.channel typename "\"ned.IdealChannel\""
+par Network.Server3.out.channel typename "\"ned.IdealChannel\""
+par Network.Server5.out.channel typename "\"ned.IdealChannel\""
+par Network.Server6.out.channel typename "\"ned.IdealChannel\""
+par Network.Server7.out.channel typename "\"ned.IdealChannel\""
+par Network.Server4.out.channel typename "\"ned.IdealChannel\""
+par Network.Server.out.channel typename "\"ned.IdealChannel\""
+par Network.Server typename "\"newproject.server\""
+par Network.Client typename "\"newproject.client\""
+par Network.Server1 typename "\"newproject.server\""
+par Network.Server2 typename "\"newproject.server\""
+par Network.Server3 typename "\"newproject.server\""
+par Network.Server4 typename "\"newproject.server\""
+par Network.Server5 typename "\"newproject.server\""
+par Network.Server6 typename "\"newproject.server\""
+par Network.Server7 typename "\"newproject.server\""
+par Network.mr typename "\"newproject.MR\""
+par Network.mr1 typename "\"newproject.MR\""
+par Network.mr2 typename "\"newproject.MR\""
+par Network.mr3 typename "\"newproject.MR\""
+par Network.mr4 typename "\"newproject.MR\""
+par Network.mr5 typename "\"newproject.MR\""
+par Network.mr6 typename "\"newproject.MR\""
+par Network.mr7 typename "\"newproject.MR\""
+par Network typename "\"newproject.Network\""
+
