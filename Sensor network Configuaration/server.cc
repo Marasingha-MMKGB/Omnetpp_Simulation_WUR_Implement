@@ -26,6 +26,7 @@ void server::initialize(){
 void server::handleMessage(cMessage *msg){
 
     if (strcmp(msg->getName(),getFullName()) == 0) {
+
         msg = new cMessage(getFullName());
 
            cModule *target=getParentModule()->getSubmodule("Client");
@@ -33,5 +34,6 @@ void server::handleMessage(cMessage *msg){
            sendDirect(msg,target,"radioIn");
 
     }
+
 
 }
