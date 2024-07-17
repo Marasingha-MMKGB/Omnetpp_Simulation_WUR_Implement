@@ -1,0 +1,33 @@
+version 3
+run General-0-20240706-06:17:45-14116
+attr configname General
+attr datetime 20240706-06:17:45
+attr datetimef 20240706-061745
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 14116
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+config sim-time-limit 100s
+
+par Network.nodeA.out1.channel typename "\"ned.IdealChannel\""
+par Network.tx.out.channel typename "\"ned.IdealChannel\""
+par Network.rx.out.channel typename "\"ned.IdealChannel\""
+par Network.nodeB.out2.channel typename "\"ned.IdealChannel\""
+par Network.nodeA.out2.channel typename "\"ned.IdealChannel\""
+par Network.nodeB.out1.channel typename "\"ned.IdealChannel\""
+par Network.nodeA typename "\"NodeA\""
+par Network.nodeB typename "\"NodeB\""
+par Network.rx typename "\"RX\""
+par Network.tx typename "\"TX\""
+par Network typename "\"Network\""
+

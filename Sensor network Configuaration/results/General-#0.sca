@@ -1,0 +1,32 @@
+version 3
+run General-0-20240709-22:26:00-4856
+attr configname General
+attr datetime 20240709-22:26:00
+attr datetimef 20240709-222600
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 4856
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+config record-eventlog true
+
+par Network.Server typename "\"newproject.server\""
+par Network.Client typename "\"newproject.client\""
+par Network.Server1 typename "\"newproject.server\""
+par Network.Server2 typename "\"newproject.server\""
+par Network.Server3 typename "\"newproject.server\""
+par Network.Server4 typename "\"newproject.server\""
+par Network.Server5 typename "\"newproject.server\""
+par Network.Server6 typename "\"newproject.server\""
+par Network.Server7 typename "\"newproject.server\""
+par Network typename "\"newproject.Network\""
+
